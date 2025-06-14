@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+}
+.head-logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+.head-image img{
+    width: 70px;
+    height: 25px;
+    margin-left: 30px;
+    color: black;
+    
+}
+.location-text{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    
+}
+.location-text:hover{
+    color: #070707;
+}
+
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    height: 50px;
+    width: 100vw;
+    background-color:transparent;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    background-color: #101029;
+    
+   
+}
+.fitness{
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.location-text{
+    margin-left: 120px;
+}
+.aw-loaction i{
+       font-size: 20px;
+       font-weight: bold;
+}
+.account{
+    font-size: 25px;
+    color: white;
+
+}
+.account a{
+    text-decoration: none;
+}
+.account button{
+    border: transparent;
+    background-color:transparent;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid white;
+}
+.account a{
+    color: #fbf1f1;
+}
+
+
+.account:hover{
+    color: rgb(206, 47, 47);
+}
+.cart{
+    font-size: 25px;
+    color: white;
+}
+.get-app button{
+     height: 40px;
+     border-radius: 5px;
+     border: 2px solid white;
+     background-color: transparent;
+    
+}
+.aw-loaction{
+    color: white;
+}
+
+
+.get-app a{
+    text-decoration: none;
+    color: rgb(209, 202, 202);
+    font-size: 15px;
+}
+
+.sports{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.care{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.mind{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.store{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.font-t{
+    font-size: 18px;
+    color: white;
+}
+.section-image img{
+    width: 100vw;
+    height: 800px;
+}
+.fitness a{
+    text-decoration: none;
+    color: rgb(254, 250, 250);
+}
+.sports a{
+    text-decoration: none;
+    color:rgb(255, 252, 252)
+}
+.care a{
+    text-decoration: none;
+    color:rgb(254, 251, 251)
+}
+.mind a{
+    text-decoration: none;
+    color:rgb(254, 249, 249)
+}
+.store a{
+    text-decoration: none;
+    color:rgb(246, 241, 241)
+}
+.section-image{
+    background-image: url(../ATHLETE.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 800px;
+    background-repeat: no-repeat;
+    
+}
+.join-us{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    
+}
+.join-us {
+    color: #e6e6e6;
+}
+
+
+.dash hr{
+    width: 200px;
+}
+.shape-three{
+    font-size: 110px;
+    color: blueviolet;
+}
+.shape{
+    font-size: 60px;
+}
+.shape-two{
+    font-size: 85px;
+}
+.three-star{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.join-now button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.join-now a{
+    text-decoration: none;
+}
+.motivation p{
+    font-size: 18px;
+}
+.middle-body{
+    width: 100vw;
+    height: 900px;
+    background-color:rgb(16, 16, 41);
+}
+.one-pass{
+    width: 370px;
+    height: 200px;
+    background-color:rgb(62, 62, 70);
+    border-radius: 10px;
+    justify-content: center;
+    border: 1px solid white;
+
+}
+.two-pass{
+    width: 370px;
+    height: 200px;
+    background-color: rgb(62, 62, 70);
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+.three-pass{
+    width: 370px;
+    height: 200px;
+    background-color:rgb(62, 62, 70);
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+.pass-box{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.elite{
+    font-size: 45px;
+    color: rgb(129, 115, 33);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.one-pass-head{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin-top: 36px;
+
+}
+.UNLIMITED{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+.all-gym{
+    text-align: center;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+.pro{
+    font-size: 45px;
+    color: silver;
+}
+.select{
+    font-size: 45px;
+    color: white;
+}
+.arrow{
+    font-size: 60px;
+    color: white;
+    margin-left:50%;
+}
+.background-one{
+    background-image: url(../yoga-image-one.png);
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 400px;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+.background-two{
+    background-image: url(../image_zoom_widget_img_3.png);
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 400px;
+    position: relative;
+    left: 60%;
+    bottom: 20%;
+    
+}
+.background-two:hover{
+    border: 0.5px solid white;
+    border-radius: 12.5px;
+}
+.background-one:hover{
+    border: 0.5px solid white;
+    border-radius: 12.5px;
+}
+@media screen {
+    body{
+        max-width: 344px;
+        height: 900px;
+
+    }
+}
+
+
+
+
+.background-one p{
+    font-size: 65px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 70%;
+    color: white;
+    
+}
+.second-mid{
+    width: 100vw;
+    height: 650px;
+    background-image: url(../bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fun-train h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.fun-train h4{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 55px;
+}
+.fun-train{
+    text-align: center;
+}
+.elite-img-one{
+    background-image: url(../elite-[aas.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
+    
+}
+.elite-img-two{
+    background-image: url(../pro-paas.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
+    
+}
+.elite-img-three{
+    background-image: url(../play_paas.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
+   
+}
+.elite-img-four{
+    background-image: url(../select-paas.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 250px;
+
+}
+.header-mid{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.elite-img-one H4{
+    font-size: 45PX;
+    position: relative;
+    top: 70%;
+    left: 30%;
+    color: rgb(238, 194, 17);
+}
+.elite-text H4{
+    font-size: 25PX;
+    color: white;
+}
+.elite-text li{
+    color: white;
+    margin-top: 15px;
+}
+.elite-text {
+    margin-top: 10px;
+}
+.elite-img-two h4{
+    font-size: 45PX;
+    position: relative;
+    top: 70%;
+    left: 30%;
+    color: white;
+}
+.both-two li{
+    color: white;
+    margin-top: 15px;
+}
+.both-two h4{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+.elite-img-three H4{
+    font-size: 45PX;
+    position: relative;
+    top: 70%;
+    left: 30%;
+    color: rgb(106, 189, 17);
+}
+.text-area h4{
+    font-size: 25px;
+    color: rgb(250, 251, 249);
+    margin-top: 10px;
+}
+.text-area li{
+    color: white;
+    margin-top: 10px;
+}
+.elite-img-four H4{
+    font-size: 45PX;
+    font-size: 45PX;
+    position: relative;
+    top: 70%;
+    left: 30%;
+    color: rgb(224, 228, 220);
+}
+.new-text h4{
+    font-size: 25px;
+    color: rgb(250, 251, 249);
+    margin-top: 10px;
+}
+.new-text li{
+    color: white;
+    margin-top: 10px;
+}
+.hr{
+    width:100vw;
+    height: 10px;
+}
+.p-one button{
+      width: 160px;
+      height: 35px;
+      margin-left: 10px;
+      background-color: transparent;
+      border-radius: 5px;
+    
+}
+.p-one a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.p-two button{
+    width: 160px;
+    height: 35px;
+    background-color: rgb(246, 234, 234);
+    border-radius: 5px;
+}
+.p-two a{
+    text-decoration: none;
+    color: #e41010;
+}
+.part-two-one button{
+    width: 160px;
+    height: 35px;
+    margin-left: 40px;
+    background-color: transparent;
+    border-radius:5px;
+}
+.part-two-one a{
+    text-decoration: none;
+    color: #fbf1f1;
+    font-weight: bold;
+}
+.part-two-two button{
+    width: 160px;
+    height: 35px;
+    border-radius:5px;
+}
+.part-two-two a{
+    text-decoration: none;
+    color: #e41010;
+}
+.part-three-one button{
+    width: 160px;
+    height: 35px;
+    margin-left: 40px;
+    background-color: transparent;
+    border-radius:5px;
+}
+.part-three-one a{
+    text-decoration: none;
+    color: #fbf1f1;
+}
+.part-three-two button{
+    width: 160px;
+    height: 35px;
+    border-radius:5px;
+}
+.part-three-two a{
+    text-decoration: none;
+    color: #e41010;
+}
+.part-four-one button{
+    width: 160px;
+    height: 35px;
+    margin-left: 40px;
+    background-color: transparent;
+    border-radius:5px;
+}
+.part-four-one a{
+    text-decoration: none;
+    color: #fbf1f1;
+}
+.part-four-two button{
+    width: 160px;
+    height: 35px;
+    border-radius:5px;
+}
+.part-four-two a{
+    text-decoration: none;
+    color: #e41010;
+}
+
+
+
+.eight-boxes{
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+    
+}
+.part-one{
+    display: flex;
+    gap: 15px;
+}
+.part-two{
+    display: flex;
+    gap: 15px;
+}
+.part-three{
+    display: flex;
+    gap: 15px;
+}
+.part-four{
+    display: flex;
+    gap: 15px;
+}
