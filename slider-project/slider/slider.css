@@ -1,0 +1,30 @@
+.slider-images{
+    display: flex;
+    transform: translate(-4500px);
+    
+    
+}
+.slider{
+    width: 1500px;
+    overflow-x: hidden;
+    
+}
+.one img{
+    width: 1500px;
+    height: 600px;
+}
+.less-than button{
+    position: relative;
+    bottom: 300px;
+    font-size: 55px;
+    background-color: transparent;
+    border: none;
+}
+.more-than button{
+    position: relative;
+    bottom: 350px;
+    left: 97%;
+    font-size: 55px;
+    background-color: transparent;
+    border: none;
+}
