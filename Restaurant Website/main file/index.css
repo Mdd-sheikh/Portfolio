@@ -1,0 +1,447 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    left: 60%;
+    top: 2%;
+    gap: 25px;
+}
+
+.home button {
+    border: none;
+    background-color: transparent;
+}
+
+.menu button {
+    border: none;
+    background-color: transparent;
+}
+
+.contact-us button {
+    border: none;
+    background-color: transparent;
+}
+
+.our-story button {
+    border: none;
+    background-color: transparent;
+}
+
+.home a {
+    text-decoration: none;
+    color: aliceblue
+}
+
+.menu a {
+    text-decoration: none;
+    color: aliceblue
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: aliceblue
+}
+
+.our-story a {
+    text-decoration: none;
+    color: aliceblue
+}
+
+.input-search i {
+    margin-right: 18px;
+}
+
+.input-search {
+    display: flex;
+}
+
+.input-search input {
+    height: 30px;
+    border-radius: 25px;
+}
+
+
+.s-icon {
+    position: relative;
+    right: 25px;
+    align-content: center;
+}
+
+.section {
+    background-image: url(../assests/images/header_background.png);
+    width: 1510px;
+    height: 670px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    justify-content: center;
+    gap: 200px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 20px;
+    
+}
+
+.image-10 img {
+    width: 400px;
+    height: 400px;
+    margin-top: 400px;
+
+
+
+}
+
+.image-11 img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 55px;
+    right: 5px;
+}
+
+.image-12 img {
+    position: relative;
+    left: 85px;
+    height: 330px;
+    bottom: 230px;
+
+
+
+}
+
+.place-your-logo img {
+    width: 60px;
+    height: 50px;
+}
+
+.text-area-section {
+    margin-left: 20px;
+    
+}
+
+.readmore button {
+    width: 140px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+
+
+}
+
+.readmore a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sentence p {
+    color: aliceblue;
+    width: 350px;
+}
+
+.loremson h2 {
+    color: aliceblue;
+}
+
+.main {
+    width: 1510px;
+    height: 800px;
+    background-color: transparent;
+    justify-items: center;
+    gap: 10px;
+}
+.main-header-image img{
+    width: 650px;
+    margin-top: 10px;
+}
+.main-header-text p{
+    width: 500px;
+    text-align: center;
+    
+}
+.main-three-boxes{
+    display: flex;
+    gap: 100px;
+}
+.main-first-box{
+    justify-items: center;
+}
+.main-second-box{
+    justify-items: center;
+}
+.main-third-box{
+    justify-items: center;
+}
+
+.first-plate img{
+   width: 330px;
+   height: 330px;
+}
+.second-plate img{
+    width: 330px;
+   height: 330px;
+}
+.third-plate img{
+    width: 330px;
+   height: 330px;
+}
+.bottom-button button{
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    margin-top: 35px;
+}
+.bottom-button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.main-two{
+    width: 1510px;
+    height: 500px;
+    background-color: rgb(1, 10, 14);
+    justify-items: center;
+}
+.main-two-header img{
+    margin-top: 15px;
+    
+}
+.main-two-header{
+    text-align: center;
+}
+.headeline-one p{
+    width: 480px;
+    color:aliceblue
+}
+.headeline-two p{
+    width: 480px;
+    color:aliceblue
+}
+.headline{
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin-top: 50px;
+   
+    
+}
+.main-two-button button{
+    width: 190px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 60PX;
+}
+.main-two-button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    
+}
+.main-three{
+    width: 1510px;
+    height: 800px;
+    background-color: transparent;
+}
+.main-three{
+    
+}
+.plate-text{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.plate-text-two{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+.plate img{
+    width: 400px;
+    height: 400px;
+}
+.text h2{
+    width: 350px;
+    font-size: 35px;
+    margin-left: 250px;
+
+}
+.text p{
+    width: 350px;
+    margin-left: 250px;
+}
+.plate-two img{
+    width: 400px;
+    height: 400px;
+    margin-left: 180px;
+}
+.plate-button button{
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    margin-left: 250px;
+}
+.plate-button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+.plate-button-two button {
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    margin-left: 340px;
+}
+.plate-button-two a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+} 
+.main-four{
+    background-image: url(../assests/images/header_background.png);
+    width: 1500px;
+    height: 810px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+.leaf-back{
+    position: relative;
+    bottom: 20%;
+    left: 2%;
+}
+.stnc-one img{
+    text-align: center;
+   
+}
+.stnc-one{
+    position: relative;
+    bottom: 87%;
+    text-align: center;
+    justify-items: center;
+}
+.stnc-one p{
+    width: 550px;
+    color: aliceblue;
+}
+.stnc-one hr{
+    height: 5px;
+    background-color: aliceblue;
+    width: 150px;
+    border: none;
+}
+.pizza-image img{
+    width: 550px;
+    height: 550px;
+    margin-top: 10px;
+    margin-left: 170px;
+}
+.one-part{
+    position: relative;
+    right: 210px;
+    bottom: 260px;
+}
+.main-five{
+    width: 1500px;
+    height: 550px;
+    background-color:transparent;
+    display: flex;
+    margin-top: 200px;
+    justify-self: center;
+    text-align: center;
+    gap: 20px;
+
+    
+}
+.lorem-text p{
+    width: 400px;
+    
+}
+.lorem-text-two p{
+    width: 400px;
+}
+.lorem-text-third p{
+    width: 400px;
+    
+}
+.first-lorem{
+    text-align: center;
+    margin-left: 100px;
+}
+.second-lorem{
+    text-align: center;
+}
+.third-lorem{
+    text-align: center;
+}
+.section-two{
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(1, 10, 14);
+}
+.in-leaf{
+    position: relative;
+    bottom: 25px;
+
+}
+.title-here h1{
+    position: relative;
+    bottom: 850px;
+    left: 600px;
+    color: aliceblue;
+    font-size: 50px;
+}
+.sent-two p{
+    position: relative;
+    bottom: 850px;
+    left: 450px;
+    width: 650px;
+    color: aliceblue;
+    text-align: center;
+}
+.two-input{
+    display: flex;
+    
+}
+.input-big input{
+    width: 350px;
+    height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: -25%;
+    border-bottom-right-radius: -25px;
+    background-color: aliceblue;
+    border: none;
+}
+.button-big button{
+    height: 50px;
+    width: 130px;
+    border-radius: 25px;
+    position: relative;
+    right: 50px;
+    background-color: rgb(42, 40, 40);
+    color: aliceblue;
+    border: none;
+}
+.two-input{
+    position: relative;
+    bottom: 780px;
+    left: 550px;
+    align-items: center;
+}
