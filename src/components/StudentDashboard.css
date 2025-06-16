@@ -1,0 +1,40 @@
+.student-dashboard {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #1f2937;
+}
+
+.attendance-info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.history-heading {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.present {
+  color: green;
+}
+
+.absent {
+  color: red;
+}

@@ -1,0 +1,27 @@
+export const initialStudents = [
+  { id: 1, name: "Aadil", present: false, attendance: [1, 1, 1] },
+  { id: 2, name: "Sara", present: false, attendance: [1, 0, 1] },
+  { id: 3, name: "John", present: false, attendance: [0, 1, 0] },
+  { id: 1, name: "Aadil", present: false, attendance: [], class: "10A" },
+  { id: 2, name: "Sara", present: false, attendance: [], class: "10A" },
+  { id: 3, name: "Rohan", present: false, attendance: [], class: "10A" },
+  { id: 4, name: "Priya", present: false, attendance: [], class: "10A" },
+  { id: 5, name: "Aman", present: false, attendance: [], class: "10A" },
+  { id: 6, name: "Fatima", present: false, attendance: [], class: "10A" },
+  { id: 7, name: "Vikram", present: false, attendance: [], class: "10A" },
+  { id: 8, name: "Sneha", present: false, attendance: [], class: "10A" },
+  { id: 9, name: "Ali", present: false, attendance: [], class: "10A" },
+  { id: 10, name: "Megha", present: false, attendance: [], class: "10A" },
+  { id: 11, name: "Karan", present: false, attendance: [], class: "10A" },
+  { id: 12, name: "Nisha", present: false, attendance: [], class: "10A" },
+  { id: 13, name: "Arjun", present: false, attendance: [], class: "10A" },
+  { id: 14, name: "Pooja", present: false, attendance: [], class: "10A" },
+  { id: 15, name: "Imran", present: false, attendance: [], class: "10A" },
+  { id: 16, name: "Zoya", present: false, attendance: [], class: "10A" },
+  { id: 17, name: "Sahil", present: false, attendance: [], class: "10A" },
+  { id: 18, name: "Lina", present: false, attendance: [], class: "10A" },
+  { id: 19, name: "Harsh", present: false, attendance: [], class: "10A" },
+  { id: 20, name: "Ritika", present: false, attendance: [], class: "10A" },
+];
+
+
