@@ -1,0 +1,76 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+label{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.email{
+    width:600px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 5px; 
+    border: none;
+    background-color: #e6e6e6;   
+}
+.name{
+    width:600px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #e6e6e6;
+    border: none;
+}
+.message{
+    width:600px;
+    height: 170px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: none;
+    background-color: #e6e6e6;
+
+}
+button{
+    width: 85px;
+    border-radius:20px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: yellow;
+    border: none;
+    background-color:#e8e816;
+}
+.message ::placeholder{
+    font-size: larger;
+}
+.image{
+    background-image: url(../real-back.png);
+    width: 570px;
+    height:auto;
+    
+ 
+}
+.form-id{
+    display: flex;
+    gap: 57px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.image img{
+    width: 460px;
+    height: auto;
+}
+
+textarea::placeholder{
+    vertical-align: top;
+}
